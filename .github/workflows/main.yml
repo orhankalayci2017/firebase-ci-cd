@@ -6,8 +6,9 @@ on:
     
 jobs:
   build-and-deploy:
-    name: Building and Deploying
-      runs-on: ubuntu-latest 
+
+      runs-on: ubuntu-latest
+
       steps:
         - name: Checkout our repo
           uses: actions/checkout@v2
