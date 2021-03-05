@@ -6,7 +6,9 @@ on:
     
 jobs:
   build-and-deploy:
+
       runs-on: ubuntu-latest
+
       steps:
         - name: Checkout our repo
           uses: actions/checkout@v2
